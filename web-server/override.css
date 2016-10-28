@@ -1,0 +1,314 @@
+.plug-bg-blue {
+	background-color: #00a2cc;
+}
+
+.plug-bg-sensor-light {
+	background: #7C9979;
+}
+
+.mdl-layout__drawer {
+	border-right: 0px;
+}
+
+.demo-drawer-header {
+  background-image: url(../img/pattern-3-03.png);
+  background-size: 50%;
+
+
+
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 16px;
+  height: 151px;
+}
+.demo-avatar-dropdown {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.demo-navigation {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.demo-layout .demo-navigation .mdl-navigation__link {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(255, 255, 255, 0.56);
+  font-weight: 500;
+}
+
+.demo-navigation .mdl-navigation__link .material-icons {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.56);
+  margin-right: 32px;
+}
+
+.nav-active {
+	background-color: #e2e2e2;
+}
+
+.overview-grid{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.device-card {
+	padding: 0;
+	color: white;
+}
+
+.device-card-small {
+  padding: 0;
+  color: white;
+}
+
+.device-card .mdl-card__title {
+	height: 150px;
+	color: white;
+}
+
+.device-card-small .mdl-card__title {
+  height: 80px;
+  color: white;
+}
+
+.mdl-card__menu h4 {
+	margin-top: 10px;
+	line-height: 5px;
+	text-align: right;
+}
+.mdl-card__menu h4:last-child {
+	font-size: 15px;
+}
+
+.mdl-switch.is-checked .mdl-switch__thumb {
+	background: rgb(249, 168, 69);
+}
+
+.mdl-switch.is-checked .mdl-switch__track {
+	background: rgba(228, 178, 102, 0.54);
+}
+
+.mdl-progress {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+}
+
+#logo-plug {
+	//margin-right: 20px;
+	opacity: 0.9;
+
+}
+
+.sensor-temperature .mdl-card__title {
+	background: url('../img/icons/icon_01.png') bottom right 5%  no-repeat;
+}
+
+.sensor-motion .mdl-card__title {
+	background: url('../img/icons/icon_02.png') bottom right 5%  no-repeat;
+}
+
+.sensor-light .mdl-card__title {
+	background: url('../img/icons/icon_03.png') bottom right 5%  no-repeat;
+}
+
+.sensor-general .mdl-card__title {
+	background: url('../img/icons/icon_02.png') bottom right 5%  no-repeat;
+}
+
+.device-lamp .mdl-card__title {
+	background: url('../img/icons/icon_05.png') bottom right 5%  no-repeat;
+}
+
+.device-plug .mdl-card__title {
+	background: url('../img/icons/icon_06.png') bottom right 5%  no-repeat;
+}
+
+.device-fan .mdl-card__title {
+	background: url('../img/icons/icon_07.png') bottom right 5%  no-repeat;
+}
+
+.device-heater .mdl-card__title {
+	background: url('../img/icons/icon_08.png') bottom right 5%  no-repeat;
+}
+
+.device-coffee .mdl-card__title {
+	background: url('../img/icons/icon_09.png') bottom right 5%  no-repeat;
+}
+
+.device-boiler .mdl-card__title {
+	background: url('../img/icons/icon_10.png') bottom right 5%  no-repeat;
+}
+
+.device-general .mdl-card__title {
+	background: url('../img/icons/icon_11.png') bottom right 5%  no-repeat;
+}
+
+.plug-pattern-bg {
+
+  background-image: url(../img/pattern-3-03.png);
+  background-size: 15%;
+  height: 200px;
+  margin: 0;
+}
+
+.first-section {
+  position: relative;
+  height: 500px;
+  width: auto;
+  background-image: url(../img/espbg_1.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 760px) {
+  .first-section {
+    background-image: url(../img/espbg_2.jpg);
+  }
+}
+
+.first-section div {
+  padding-top: 30px
+}
+
+.second-section {
+  padding: 20px;
+  height: 150px;
+}
+
+.third-section {
+  padding: 20px;
+  height: 150px;
+}
+
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+
+}
+
+.slogan {
+    font-weight: 500;
+    font-size: 18pt;
+}
+.subslogan {
+  font-weight: 300;
+    font-size: 12pt;
+
+}
+
+.login-error-message {
+  color: #e3245e;
+  display: none;
+}
+
+.login-success-message {
+  color: #27f85d;
+}
+
+.login-success-message a {
+  color: #27f85d;
+}
+
+.menu-link-a {
+  text-decoration: none !important;
+}
+
+#view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+
+.plug-simple-page {
+  background-color: white;
+  margin-top: 10px;
+  color: #303030;
+}
+
+#accountForm {
+  max-width: 400px;
+}
+
+#accountForm p {
+  clear: both;
+  float: left;
+  padding-top: 20px;
+}
+
+#accountForm .mdl-textfield {
+  float: right;
+}
+
+.edit-user-button {
+  position: relative;
+  clear: both;
+  margin-top: 20px;
+}
+
+.serial-input {
+  margin-left: 20px;
+  max-width: 240px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  color: #2865e1;
+}
+.serial-input .mdl-textfield__input {
+  font-size: 24px;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+}
+
+#device-pair-code {
+  clear: both;
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  background-color: #2865e1;
+  color: white;
+}
