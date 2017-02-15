@@ -7,7 +7,7 @@ This project is an open-source solution for controlling IoT Smart Devices/Sensor
 
 ## Examples
 
-Examples are hosted [here] (http://ct-iot.ct.aegean.gr/) (currently requires VPN connection to Aegean University) and [here] (http://83.212.118.5). Schematics for the devices are provided in [/esp8266-devices/schematics] (/esp8266-devices/schematics).
+Examples are hosted [here] (http://ct-iot.ct.aegean.gr/) (currently requires VPN connection to Aegean University) and [here - http://plug.panosmazarakis.com] (http://plug.panosmazarakis.com). Schematics for the devices are provided in [/esp8266-devices/schematics] (/esp8266-devices/schematics).
 
 ## Built With
 
